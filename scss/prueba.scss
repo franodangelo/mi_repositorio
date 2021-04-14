@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#navbarNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body{
+    background-color: #3e3e3e;
+    color: #efdfdf;
+}
+
+footer{
+    background-color: #291f1f;
+}
+
+#home__ultimosLanzamientos{
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.noticias{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.card{
+    margin: 8px;
+    padding: 4px;
+    width: 250px;
+    height: auto;
+    color: #291f1f;
+    box-shadow: #efdfdf;
+}
+
+.card:hover{
+    transform: translate(0px, -5px);
+    transition: 0.5s;
+}
+
+.listadoPeliculas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.listadoSeries{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.listadoPersonajes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.listadoProximamente{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.listadoMas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ajusteDeTexto{
+    margin-left: 8px;
+    margin-top: 24px;
+}
+
+h1{
+    font-family: 'Anton', sans-serif;
+}
+
+h2{
+    font-family: 'Anton', sans-serif;
+}
+
+h3{
+    font-family: 'Anton', sans-serif;
+}
+
+h4{
+    font-family: 'Anton', sans-serif;
+}
+
+h5{
+    font-family: 'Anton', sans-serif;
+}
+
+h6{
+    font-family: 'Anton', sans-serif;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+}
